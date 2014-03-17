@@ -23,4 +23,7 @@ end
 
 gem 'turbolinks'
 
+# Don't really know where put this
+gem 'bootstrap-sass', '~> 3.1.1'
+
 gem 'jbuilder', '~> 1.2'
