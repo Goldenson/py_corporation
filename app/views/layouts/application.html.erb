@@ -3,10 +3,13 @@
 <head>
   <title>PyCorporation</title>
   <!-- Add Oxygen font from Google, doesn't work-->
-  <%= stylesheet_link_tag    "application", 'http://fonts.googleapis.com/css?family=Oxygen',
+  <%= stylesheet_link_tag    "application", "http://fonts.googleapis.com/css?family=Oxygen",
   media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track", "home" => true %>
   <%= csrf_meta_tags %>
+
+<!-- TEST for the app on mobile -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 <body>
